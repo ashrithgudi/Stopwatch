@@ -1,0 +1,50 @@
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stopwatch{
+    background-color: rgb(255, 202, 133);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+#seconds, #tens{
+    font-size: 25px;
+    background-color: rgb(226, 213, 163);
+    color: rgb(49, 44, 1);
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px groove;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-size: 25px;
+    background-color: rgb(255, 245, 160);
+    color: rgb(4, 2, 0);
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(33, 223, 0);
+    border: rgb(112, 73, 0) solid;
+}
+h1{
+    text-shadow: 3px 3px 8px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
